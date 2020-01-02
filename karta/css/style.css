@@ -1,0 +1,145 @@
+*{
+
+box-sizing: border-box;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+
+}
+body{
+
+    background-size:cover;
+    font-family: 'sans-serif,'Franklin Gothic Medium', 'Arial;
+    font-size: 100%;
+    line-height: 1.7;
+}
+a{    
+    text-decoration: none;
+    color: rgb(156, 50, 50);
+}
+h1,h2,h3,h4,p{
+    padding: 2%;
+}
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 240%;
+    color: rgb(26, 20, 20);
+    text-align: center;
+}
+h2{
+    font-size: 130%;
+}
+h3{
+    font-size: 96%;
+}
+img{
+    width:100%;
+    border: 1.8px solid transparent;
+    border-color: rgba(4, 7, 7, 0.993);
+	height: 50%;
+    
+}
+
+nav{
+    width:100%;
+    overflow: auto;
+}
+nav ul li{
+    width: 100%;
+    float:left;
+}
+
+.scaling{
+    background-color: silver;
+    opacity: 0.72;
+    width:99%;
+    margin:0% 1%; 
+    
+}
+
+nav ul li a{
+
+background-color: gray;
+color: white;
+display: block;
+padding:15px;
+margin:2px;
+border:1.3px solid black;
+text-align: center;
+
+}
+
+nav ul li a:hover{
+    background-color: rgba(119, 170, 109, 0.199);
+}
+nav ul li a:active{
+
+    background-color: rgb(118, 144, 145);
+}
+
+.opis{
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+
+.daniaGlowne {
+height: 400px;
+width: 400px;
+background: lightgray;
+text-align: center;
+border:0.5px solid black;
+                    }
+                    
+
+
+#oNas, #coRobimy, #kontakt{
+    overflow: auto;
+}
+
+#jeden p,#dwa p,#trzy p{
+position: relative;
+bottom: 0px;
+color: black;
+font-size: 1.5em;
+text-align: center;
+visibility: hidden;
+
+}
+.daniaGlowne{
+    width: 100%;
+    float: left;
+    overflow: auto;
+}
+
+#kontakt{
+    margin-bottom: 40px;
+text-align: center;
+border:1.3px solid black;
+
+
+}
+#oNas{
+    text-align: center;
+    text-shadow: 20px;
+}
+@media screen and (min-width: 640px){
+    .scaling{
+        width: 70%;
+        margin: 0% 15%;
+    }
+    nav{
+        width: 75%;
+        margin: 15 auto;
+
+    }
+    nav ul li{
+        width: 33.33333%;
+    }
+    
+    }
+    .daniaGlowne{
+        width: 33.3333%;
+        float: left;
+    }
+}
+
